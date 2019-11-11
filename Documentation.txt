@@ -1,0 +1,25 @@
+Documentation
+
+
+constructIndex():
+ 
+Constructs the TF-IDF index for implementing search
+
+
+tf(word,freq):
+
+Computes the Modified(Normalized) term frequency frpm simple term frequency
+
+tf-idf(term,doc_id):
+
+Computes the  TF-IDF score for a term with respect to a document       
+
+query_tf_idf(query,doc_id):
+
+Computes the TF-IDF scores for a query with respect to a document   
+
+search(self,query):
+
+Ranks the documents given a query on the basis of TF-IDF scores 
+
+  
